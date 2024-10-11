@@ -1,0 +1,96 @@
+.wraper {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box{
+  width: 80%;
+  margin: 100px auto;
+  padding: 10px;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 300px;
+}
+
+.slogen {
+  width: 300px;
+  border-radius: 90%;
+  box-shadow: 0 0 20px rgb(233, 155, 10);
+}
+
+.device-heading {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  text-shadow: 0 0 5px;
+  font-family: Monsterat, sans-serif;
+}
+
+.devices {
+  margin-top: 100px;
+  color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  user-select: none ;
+}
+
+.device {
+  height: 400px;
+  width: 400px;
+  margin-top: 20px;
+  border: 2px solid rgb(2, 0, 3);
+  transition: transform 0.3s ease;
+  background: radial-gradient(ellipse at center, #ffec40, #ff9900, #ff6600, #ff0000);
+
+  box-shadow: 5px 5px 5px #fff9f9;
+  border-radius: 5%;
+}
+
+.device-image{
+  height: 80%;
+  width: 100%;
+}
+
+.device-text{
+    margin-top: 50%;
+    margin-bottom: 30%;
+    text-align: center;
+    color: rgb(236, 240, 243);
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  /* now we have to work on the footer of the web page,,,,,, */
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 30px;
+  background-color: lightsalmon;
+}
+
+.footer-item {
+  margin: 0 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: purple;
+  cursor: pointer;
+  transition: color 0.3s;
+} 
+
+
